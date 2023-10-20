@@ -14,10 +14,11 @@ final darkTheme = ThemeData(
   ),
   listTileTheme: const ListTileThemeData(iconColor: Colors.white),
   textTheme: const TextTheme(
+      labelSmall: TextStyle(
+          color: Colors.white30, fontSize: 20, fontWeight: FontWeight.w500),
       bodyMedium: TextStyle(
-    color: Colors.white,
-    fontWeight: FontWeight.w500,
-    fontSize: 20,
-  )
-  ),
+        color: Colors.white,
+        fontWeight: FontWeight.w700,
+        fontSize: 30,
+      )),
 );
